@@ -1,15 +1,64 @@
-.App {
+/* .App {
   text-align: center;
+  
+} */
+.navbar-nav {
+ text-align: right;
+  text-align: right;
+  margin-top: -4%;
+  
 }
 
-.App-logo {
+
+.nav-link {
+  
+  margin-right: 100px;
+  color: #20cad6;
+  transition: color 0.2s ease;
+  display: inline-block;
+  padding: 10px 16px;
+  
+  
+}
+
+.nav-link:hover {
+  color: #61dafb;
+  display: inline;
+  
+}
+
+.nav-link.active {
+  color: #61dafb;
+}
+.bgimage {
+  height:100vh;
+  background: url('E:\Bharath intern\portfolioo-app\public\IMG_20240126_135625.jpg');
+  background-size:cover;
+  position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -35,4 +84,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
